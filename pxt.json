@@ -1,0 +1,27 @@
+{
+    "name": "messungen",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "v3": "*",
+        "datalogger": "*",
+        "SCD30": "github:calliope-edu/pxt-scd30#cb17619e41d8ba93b66544422a26dd3beafa0bc2"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "7.0.3",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
